@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    width: 100vw;
+    height: 100vh;
+
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+
+    background: linear-gradient(90deg, hsla(205, 46%, 30%, 1) 0%, hsla(260, 46%, 59%, 1) 100%);
+}
